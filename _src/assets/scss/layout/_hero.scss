@@ -32,8 +32,9 @@
   margin-bottom: 45px;
   color: $color-light;
   font-size: $font-size-ss;
-  font-family:$font-family;
-  line-height: 1.5;
+  font-family:$font-family-secundary;
+  line-height: normal;
+  font-weight: normal;
 }
 .icon-scroll-container{
   background: $color-light;
@@ -49,5 +50,4 @@
   margin-top: 2px;
   width: 20px;
   height: 11.5px;
-
 }
