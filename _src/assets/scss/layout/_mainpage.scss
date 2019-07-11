@@ -1,4 +1,19 @@
 @import 'layout/hero';
+.vindow-p{
+  margin-top: 30px;
+  padding: 5px 0px ;
+  font-size: $font-size-sss;
+  color: $color-tertiary;
+}
+.vindow-h2{
+  font-size: $font-size-m;
+  margin-bottom: 15px;
+}
+.vindow-p2{
+  font-size: $font-size-s;
+  color: $color-light-midtone;
+  margin-bottom: 30px;
+}
 .enlace-go {
   text-decoration: none;
   display: block;

@@ -5,7 +5,10 @@
 @import 'layout/footer';
 @import 'core/settings';
 @import 'core/links';
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .page{
   margin: 0;
   padding: 0;
