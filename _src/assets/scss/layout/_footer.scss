@@ -1,6 +1,9 @@
 .footer{
   position: relative;
   background: $color-primary;
+  text-align: center;
+  font-family: $font-family-secundary;
+  color: $color-light;
 }
 .icon-arrow-container{
   position:absolute;
@@ -14,9 +17,43 @@
   justify-content: center;
   align-items: center;
 }
-.icon-scroll-down{
+.icon-arrow-img{
   margin: 0px;
   margin-top: 2px;
   width: 20.6px;
   height: 24px;
+}
+.footer-list1{
+  text-align: center;
+  padding-top: 60px;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: $font-size-ss;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+}
+.footer-list2{
+  text-align: center;
+  padding-top: 30px;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: $font-size-ss;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+}
+.copy{
+  padding-top: 30px;
+  line-height: 2.14;
+  font-size: $font-size-sss
+}
+.love-coments{
+  line-height: 2.14;
+  font-size: $font-size-sss
+}
+.heart{
+  color: $color-btn
 }
