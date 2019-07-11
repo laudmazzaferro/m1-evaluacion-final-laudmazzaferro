@@ -1,8 +1,9 @@
 
 .hero-container {
-  background-image: url("../images/cover.jpg");
-  height: 421px;
-  width: 100%;
+  background-image: url("../images/cover.jpg") ;
+  margin: 0px;
+  padding: 0px;
+  height: 568px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,11 +11,43 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
-.title{
+.title-hero{
   padding: 0px;
   margin: 0px;
+  margin-top: 284px;
+  margin-bottom:10px;
+  width: 290px;
   color: $color-light;
+  text-align: center;
   font-size: $font-size-b;
+  font-family:$font-family;
+}
+
+.titlesmall-hero{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 45px;
+  color: $color-light;
+  font-size: $font-size-ss;
+  font-family:$font-family;
+  line-height: 1.5;
+}
+.icon-scroll-container{
+  background: $color-light;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-scroll-down{
+  margin: 0px;
+  margin-top: 2px;
+  width: 20px;
+  height: 11.5px;
+
 }
