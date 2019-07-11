@@ -10,6 +10,15 @@
   padding: 5px 0px ;
   font-size: $font-size-sss;
   color: $color-tertiary;
+  line-height: 2.14;
+  @media all and (min-width:768px){
+    margin-left:38px;
+    margin-right:38px;
+  }
+  @media all and (min-width:1200px){
+    margin-left:275px;
+    margin-right:275px;
+  }
 
 }
 .vindow-h2{
@@ -17,6 +26,16 @@
   margin-right:15px;
   font-size: $font-size-m;
   margin-bottom: 15px;
+  @media all and (min-width:768px){
+    margin-left:38px;
+    margin-right:38px;
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  @media all and (min-width:1200px){
+    margin-left:275px;
+    margin-right:275px;
+  }
 }
 .vindow-p2{
   margin-left:15px;
@@ -24,6 +43,15 @@
   font-size: $font-size-s;
   color: $color-light-midtone;
   margin-bottom: 30px;
+  @media all and (min-width:768px){
+    margin-left:38px;
+    margin-right:38px;
+    font-size: 20px;
+  }
+  @media all and (min-width:1200px){
+    margin-left:275px;
+    margin-right:275px;
+  }
 }
 .enlace-go {
   text-decoration: none;
@@ -39,10 +67,25 @@
   margin-bottom: 30px;
   margin-left: 15px;
   margin-right:15px;
+  padding-right: 5px;
+  font-size: 20px;
+  text-transform: capitalize;
   transition: color ease 0.5s, border ease 0.5s;
   &:hover {
     color:$color-primary;
     border:  solid $color-primary;
+  }
+  @media all and (min-width:768px){
+    margin-left:38px;
+    margin-right:38px;
+    margin-bottom: 60px;
+    width: 91px;
+
+  }
+  @media all and (min-width:1200px){
+    margin-left:275px;
+    margin-right:275px;
+    width: 160px;
   }
 }
 
@@ -56,6 +99,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding:0 38px;
+    grid-gap: 30px;
+
 }
 }
 .reason-purchase{
@@ -66,15 +111,29 @@
 .purchase-title{
   font-size:$font-size-m;
   margin-bottom: 45px;
+  @media all and (min-width:768px) {
+  font-size: 26px;
+  line-height: 1.73;
+  }
+  @media all and (min-width:1200px) {
+    font-size: 32px;
+    line-height: 1.41;
+  }
 }
 .purchase-list-title{
   font-size:$font-size-s;
   font-weight: bold;
   padding:4px 0px;
+  @media all and (min-width:768px) {
+    font-size: $font-size-m;
+  }
 }
 .purchase-list-p{
-padding: 4px 0px;
-margin-bottom: 45px;
+  padding: 4px 0px;
+  margin-bottom: 45px;
+  @media all and (min-width:768px) {
+  font-size: 20px;
+  }
 }
 
 .purchase-bton{
@@ -94,4 +153,11 @@ margin-bottom: 45px;
   &:hover {
     transform:scale(1.5);
   }
+  @media all and (min-width:768px) {
+    width: 210px;
+    }
+  @media all and (min-width:1200px) {
+    width: 255px;
+    }
+
 }

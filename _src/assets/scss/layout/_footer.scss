@@ -11,16 +11,20 @@
   text-align: center;
   font-family: $font-family-secundary;
   color: $color-light;
-  padding-bottom:30px;
+  padding-bottom:45px;
   @media all and (min-width:768px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:30px;
     padding-left:38px;
     padding-right:38px;
+  }
+  @media all and (min-width:1200px) {
+    padding-left:370px;
+    padding-right:370px;
+  }
 }
 
-}
 .icon-arrow-container{
   position:absolute;
   left: 50%;

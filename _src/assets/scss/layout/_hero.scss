@@ -37,6 +37,13 @@
     max-width: 500px;
     font-size: 80px;
     margin-bottom:20px;
+    line-height: 1.33;
+  }
+  @media all and (min-width:1200px){
+    max-width: 700px;
+    font-size: 100px;
+    margin-bottom:0px;
+    line-height: 1.32;
   }
 }
 .titlesmall-hero{
