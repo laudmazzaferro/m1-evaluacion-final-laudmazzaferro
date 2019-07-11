@@ -1,10 +1,10 @@
+
 @import 'core/variables';
 @import 'layout/header';
 @import 'layout/mainpage';
 @import 'layout/footer';
 @import 'core/settings';
 @import 'core/links';
-
 
 .page{
   margin: 0;
@@ -14,4 +14,6 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: $font-family;
 }
+
