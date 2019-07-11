@@ -1,0 +1,22 @@
+.footer{
+  position: relative;
+  background: $color-primary;
+}
+.icon-arrow-container{
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background:$color-light;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-scroll-down{
+  margin: 0px;
+  margin-top: 2px;
+  width: 20.6px;
+  height: 24px;
+}
