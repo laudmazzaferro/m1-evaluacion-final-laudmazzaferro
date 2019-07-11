@@ -11,6 +11,7 @@
   text-align: center;
   font-family: $font-family-secundary;
   color: $color-light;
+  padding-bottom:30px;
 }
 .icon-arrow-container{
   position:absolute;
@@ -55,12 +56,12 @@
 .copy{
   padding-top: 30px;
   line-height: 2.14;
-  font-size: $font-size-sss
+  font-size: $font-size-sss;
 }
 .love-coments{
   line-height: 2.14;
-  font-size: $font-size-sss
+  font-size: $font-size-sss;
 }
 .heart{
-  color: $color-btn
+  color: $color-btn;
 }

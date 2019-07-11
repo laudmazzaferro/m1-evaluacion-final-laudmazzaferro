@@ -10,6 +10,7 @@
   padding: 5px 0px ;
   font-size: $font-size-sss;
   color: $color-tertiary;
+
 }
 .vindow-h2{
   margin-left:15px;
@@ -24,34 +25,38 @@
   color: $color-light-midtone;
   margin-bottom: 30px;
 }
-.go-container{
-  margin-left:15px;
-  margin-right:15px;
+.enlace-go {
+  text-decoration: none;
+  background: $color-light;
   width: 76px;
   height: 45px;
   border: 2px solid $color-btn;
   border-radius:22.5px;
-  background: $color-light;
   text-align: center;
-  margin-bottom: 30px;
-}
-.enlace-go {
-  display: block;
-  text-decoration: none;
-  line-height: 45px;
   font-family: $font-family-secundary;
   color: $color-btn;
-  transition: color ease 1s,transform ease 1s;
+  line-height: 45px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right:15px;
+  transition: color ease 0.5s, border ease 0.5s;
   &:hover {
     color:$color-primary;
-    transform: scale(1.5);
+    border:  solid $color-primary;
   }
 }
 
 .purchase-list{
   list-style: none;
-  width: 184px;
   margin: auto;
+}
+
+.list-container-purchase{
+  @media all and (min-width:768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:0 38px;
+}
 }
 .reason-purchase{
   text-align: center;
@@ -74,7 +79,6 @@ margin-bottom: 45px;
 
 .purchase-bton{
   text-decoration: none;
-  display: inline-block;
   background: $color-btn;
   width: 184px;
   height: 45px;
