@@ -1,4 +1,7 @@
 @import 'layout/hero';
+.vindoww{
+padding-bottom: 30px;
+}
 .vindow-p{
   margin-top: 30px;
   padding: 5px 0px ;
@@ -21,9 +24,47 @@
   height: 45px;
   border: 2px solid $color-btn;
   border-radius:22.5px;
+  background: $color-light;
   text-align: center;
   line-height: 45px;
   font-family: $font-family-secundary;
   color: $color-btn;
 }
 
+.purchase-list{
+  list-style: none;
+  width: 184px;
+  margin: auto;
+}
+.reason-purchase{
+  text-align: center;
+  background: $color-cuartiary;
+  padding-top: 30px;
+}
+.purchase-title{
+  font-size:$font-size-m;
+  margin-bottom: 45px;
+}
+.purchase-list-title{
+  font-size:$font-size-s;
+  font-weight: bold;
+  padding:4px 0px;
+}
+.purchase-list-p{
+padding: 4px 0px;
+margin-bottom: 45px;
+}
+
+.purchase-bton{
+  text-decoration: none;
+  display: inline-block;
+  background: $color-btn;
+  width: 184px;
+  height: 45px;
+  border: 2px solid $color-btn;
+  border-radius:22.5px;
+  text-align: center;
+  line-height: 45px;
+  font-family: $font-family-secundary;
+  color: $color-light;
+}
