@@ -3,7 +3,7 @@
   background-image: url("../images/cover.jpg") ;
   margin: 0px;
   padding: 0px;
-  height: 568px;
+  height:100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,13 +17,13 @@
 .title-hero{
   padding: 0px;
   margin: 0px;
-  margin-top: 284px;
   margin-bottom:10px;
   width: 290px;
   color: $color-light;
   text-align: center;
   font-size: $font-size-b;
   font-family:$font-family;
+  text-transform: uppercase;
 }
 
 .titlesmall-hero{
