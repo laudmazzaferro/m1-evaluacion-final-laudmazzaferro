@@ -57,6 +57,10 @@
     font-size:$font-size-m;
   }
 }
+.enlace-arrow{
+  grid-row: 4/5;
+  margin: auto 0;
+}
 .icon-scroll-container{
   margin:auto;
   background: $color-light;
@@ -67,12 +71,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-row: 4/5;
 }
 .icon-scroll-down{
   margin: 0px;
-  margin-bottom: 5px;
-  margin-right: 2px;
+  margin: auto 0;
   width: 20px;
   height: 11.5px;
 }
