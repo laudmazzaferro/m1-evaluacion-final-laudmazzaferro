@@ -1,5 +1,12 @@
+.li-footer{
+  text-decoration: none;
+  background: $color-primary;
+  text-align: center;
+  font-family: $font-family-secundary;
+  color: $color-light;
+}
+
 .footer{
-  position: relative;
   background: $color-primary;
   text-align: center;
   font-family: $font-family-secundary;

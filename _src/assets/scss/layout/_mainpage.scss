@@ -1,32 +1,51 @@
-@import 'layout/hero';
 
+.vindoww{
+  margin:0 auto;
+  padding:0 15px;
+}
 .vindow-p{
+  margin-left:15px;
+  margin-right:15px;
   margin-top: 30px;
   padding: 5px 0px ;
   font-size: $font-size-sss;
   color: $color-tertiary;
 }
 .vindow-h2{
+  margin-left:15px;
+  margin-right:15px;
   font-size: $font-size-m;
   margin-bottom: 15px;
 }
 .vindow-p2{
+  margin-left:15px;
+  margin-right:15px;
   font-size: $font-size-s;
   color: $color-light-midtone;
   margin-bottom: 30px;
 }
-.enlace-go {
-  text-decoration: none;
-  display: block;
+.go-container{
+  margin-left:15px;
+  margin-right:15px;
   width: 76px;
   height: 45px;
   border: 2px solid $color-btn;
   border-radius:22.5px;
   background: $color-light;
   text-align: center;
+  margin-bottom: 30px;
+}
+.enlace-go {
+  display: block;
+  text-decoration: none;
   line-height: 45px;
   font-family: $font-family-secundary;
   color: $color-btn;
+  transition: color ease 1s,transform ease 1s;
+  &:hover {
+    color:$color-primary;
+    transform: scale(1.5);
+  }
 }
 
 .purchase-list{
@@ -67,4 +86,8 @@ margin-bottom: 45px;
   color: $color-light;
   font-size: 20px;
   margin-bottom: 45px;
+  transition: transform ease 1s;
+  &:hover {
+    transform:scale(1.5);
+  }
 }
