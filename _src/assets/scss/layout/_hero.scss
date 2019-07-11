@@ -7,28 +7,33 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  /*display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-
+  align-items: center;*/
 }
 
 .title-hero{
-  padding: 0px;
-  margin: 0px;
   margin-bottom:10px;
-  width: 290px;
+  grid-row: 2/3;
+  text-align: center;
+}
+.title-hero1{
+  margin: auto;
   color: $color-light;
+  max-width: 300px;
   text-align: center;
   font-size: $font-size-b;
   font-family:$font-family;
   text-transform: uppercase;
+  margin-bottom:10px;
 }
-
 .titlesmall-hero{
-  padding: 0px;
-  margin: 0px;
+  text-align: center;
   margin-bottom: 45px;
   color: $color-light;
   font-size: $font-size-ss;
@@ -37,17 +42,20 @@
   font-weight: normal;
 }
 .icon-scroll-container{
+  margin:auto;
   background: $color-light;
   width: 45px;
   height: 45px;
   border-radius: 50%;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .icon-scroll-down{
   margin: 0px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
+  margin-right: 2px;
   width: 20px;
   height: 11.5px;
 }
