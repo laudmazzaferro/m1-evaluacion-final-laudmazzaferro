@@ -69,7 +69,7 @@
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.88;
+  line-height: $line-height-188;
   @media all and (min-width:768px){
     padding-top: $padding-footer-top768;
     text-align: left;
@@ -84,9 +84,9 @@
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.88;
+  line-height: $line-height-188;
   @media all and (min-width:768px){
-    padding-top: 45px;
+    padding-top: $padding-footer-top768;
     text-align: left;
   }
 }
@@ -100,14 +100,14 @@
 }
 .copy{
   padding-top: 30px;
-  line-height: 2.14;
+  line-height: $line-height-214;
   font-size: $font-size-sss;
   @media all and (min-width:768px){
     padding-top: 45px;
   }
 }
 .love-coments{
-  line-height: 2.14;
+  line-height: $line-height-214;
   font-size: $font-size-sss;
 }
 .heart{
