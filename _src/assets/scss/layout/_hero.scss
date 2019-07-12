@@ -68,14 +68,17 @@
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  text-align: center;
+  position: relative;
+  /*text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
 }
 .icon-scroll-down{
-  margin: 0px;
-  margin: auto 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
   width: 20px;
   height: 11.5px;
 }
