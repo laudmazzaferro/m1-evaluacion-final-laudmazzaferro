@@ -4,6 +4,7 @@
   margin: 0px;
   padding: 0px;
   height:100vh;
+  min-height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,6 +12,9 @@
   grid-template-columns: 1fr;
   grid-template-rows: 50% 50% ;
   position: relative;
+  @media all and (min-width:768px){
+    min-height: 500px;
+  }
 }
 
 
@@ -45,6 +49,7 @@
   font-family:$font-family-secundary;
   line-height: normal;
   font-weight: normal;
+  margin-bottom: 30px;
   @media all and (min-width:768px){
     font-size:$font-size-m;
   }
