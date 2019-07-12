@@ -1,56 +1,38 @@
-
 .vindoww{
-  margin:0 auto;
-  padding:0 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  @media all and (min-width:768px){
+    margin-left:38px;
+    margin-right:38px;
+  }
+  @media all and (min-width:1200px){
+    margin-left:275px;
+    margin-right:275px;
+  }
 }
+
 .vindow-p{
-  margin-left:15px;
-  margin-right:15px;
   margin-top: 30px;
   padding: 5px 0px ;
   font-size: $font-size-sss;
   color: $color-tertiary;
   line-height: 2.14;
-  @media all and (min-width:768px){
-    margin-left:38px;
-    margin-right:38px;
-  }
-  @media all and (min-width:1200px){
-    margin-left:275px;
-    margin-right:275px;
-  }
-
 }
+
 .vindow-h2{
-  margin-left:15px;
-  margin-right:15px;
   font-size: $font-size-m;
   margin-bottom: 15px;
   @media all and (min-width:768px){
-    margin-left:38px;
-    margin-right:38px;
     font-size: 26px;
     margin-bottom: 30px;
   }
-  @media all and (min-width:1200px){
-    margin-left:275px;
-    margin-right:275px;
-  }
 }
 .vindow-p2{
-  margin-left:15px;
-  margin-right:15px;
   font-size: $font-size-s;
   color: $color-light-midtone;
   margin-bottom: 30px;
   @media all and (min-width:768px){
-    margin-left:38px;
-    margin-right:38px;
     font-size: 20px;
-  }
-  @media all and (min-width:1200px){
-    margin-left:275px;
-    margin-right:275px;
   }
 }
 .enlace-go {
@@ -65,8 +47,6 @@
   color: $color-btn;
   line-height: 45px;
   margin-bottom: 30px;
-  margin-left: 15px;
-  margin-right:15px;
   padding-right: 5px;
   font-size: 20px;
   text-transform: capitalize;
@@ -83,8 +63,6 @@
 
   }
   @media all and (min-width:1200px){
-    margin-left:275px;
-    margin-right:275px;
     width: 160px;
   }
 }
@@ -97,10 +75,10 @@
 .list-container-purchase{
   @media all and (min-width:768px) {
     display: grid;
+    grid-template-rows: 1fr ;
     grid-template-columns: 1fr 1fr 1fr;
     padding:0 38px;
     grid-gap: 30px;
-
 }
 }
 .reason-purchase{

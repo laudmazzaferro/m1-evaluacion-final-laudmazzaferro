@@ -9,13 +9,13 @@
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50% 50% ;
+  position: relative;
 }
 
 
 .title-hero{
-  margin-bottom:10px;
-  grid-row: 3/4;
+  grid-row: 2/3;
   text-align: center;
 
 }
@@ -31,14 +31,12 @@
   @media all and (min-width:768px){
     max-width: 500px;
     font-size: 80px;
-    margin-bottom:20px;
-    line-height: 1.33;
+    line-height: 1.1;
   }
   @media all and (min-width:1200px){
     max-width: 700px;
     font-size: 100px;
-    margin-bottom:0px;
-    line-height: 1.32;
+    line-height: 1.1;
   }
 }
 .titlesmall-hero{
@@ -53,8 +51,16 @@
   }
 }
 .enlace-arrow{
-  grid-row: 4/5;
-  margin: auto 0;
+  position: absolute;
+  left: 50%;
+  bottom: 53px;
+  transform: translateX(-50%);
+  @media all and (min-width:768px){
+    bottom: 45px;
+  }
+  @media all and (min-width:1200px){
+    bottom: 13px;
+  }
 }
 .icon-scroll-container{
   margin:auto;
