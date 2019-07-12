@@ -31,15 +31,25 @@
   font-family:$font-family;
   text-transform: uppercase;
   margin-bottom:10px;
+  animation-name: intro;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  @keyframes intro {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
   @media all and (min-width:768px){
     max-width: 500px;
     font-size: 80px;
-    line-height: 1.1;
+    line-height: $line-height-110;
   }
   @media all and (min-width:1200px){
     max-width: 700px;
     font-size: 100px;
-    line-height: 1.1;
   }
 }
 .titlesmall-hero{
@@ -50,6 +60,17 @@
   line-height: normal;
   font-weight: normal;
   margin-bottom: 30px;
+  animation-name: intro;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  @keyframes intro {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
   @media all and (min-width:768px){
     font-size:$font-size-m;
   }
@@ -68,11 +89,26 @@
 }
 .icon-scroll-container{
   margin:auto;
-  background: $color-light;
+  background-color: $color-light;
   width: 45px;
   height: 45px;
   border-radius: 50%;
   position: relative;
+  animation-name: intro;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  transition: background-color ease 0.5s;
+  &:hover {
+    background-color:$color-primary;
+  }
+  @keyframes intro {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 }
 .icon-scroll-down{
   position: absolute;
