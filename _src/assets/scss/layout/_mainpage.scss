@@ -1,22 +1,22 @@
 .vindoww{
-  margin-left: 15px;
-  margin-right: 15px;
+  margin:0px $margin-section1-main;
+  padding:$padding-section1-main 0px ;
   @media all and (min-width:768px){
-    margin-left:38px;
-    margin-right:38px;
+    margin:0px $margin-section1-main768;
+    padding: $padding-section1-main768 0px;
   }
   @media all and (min-width:1200px){
-    margin-left:275px;
-    margin-right:275px;
+    margin:0px $margin-section1-main1200;
   }
 }
 
 .vindow-p{
-  margin-top: 30px;
-  padding: 5px 0px ;
+  line-height: 2.14;
   font-size: $font-size-sss;
   color: $color-tertiary;
-  line-height: 2.14;
+  @media all and (min-width:1200px){
+    line-height: 1.88;
+  }
 }
 
 .vindow-h2{
@@ -49,7 +49,6 @@ text-decoration: none;
   font-family: $font-family-secundary;
   color: $color-btn;
   line-height: 45px;
-  margin-bottom: 30px;
   padding-right: 5px;
   font-size: 20px;
   text-transform: capitalize;
@@ -59,7 +58,6 @@ text-decoration: none;
     border:  solid $color-primary;
   }
   @media all and (min-width:768px){
-    margin-bottom: 60px;
     width: 91px;
 
   }
@@ -86,6 +84,10 @@ text-decoration: none;
   text-align: center;
   background: $color-cuartiary;
   padding-top: 30px;
+  padding-bottom: $padding-section2-main;
+  @media all and (min-width:1200px){
+    padding-top: $padding-section2-main1200;
+  }
 }
 .purchase-title{
   font-size:$font-size-m;
@@ -127,7 +129,6 @@ text-decoration: none;
   font-family: $font-family-secundary;
   color: $color-light;
   font-size: 20px;
-  margin-bottom: 45px;
   transition: transform ease 1s;
   &:hover {
     transform:scale(1.5);

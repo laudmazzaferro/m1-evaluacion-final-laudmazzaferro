@@ -11,11 +11,12 @@
   text-align: center;
   font-family: $font-family-secundary;
   color: $color-light;
-  padding-bottom:45px;
+  padding-bottom:$padding-footer-botton;
   @media all and (min-width:768px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:30px;
+
     padding-left:38px;
     padding-right:38px;
   }
@@ -39,7 +40,7 @@
   justify-content: center;
   align-items: center;
   animation-name: intro;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-iteration-count: 1;
   @keyframes intro {
     from {
@@ -61,7 +62,7 @@
 }
 .footer-list1{
   text-align: center;
-  padding-top: 60px;
+  padding-top: $padding-footer-top;
   list-style: none;
   text-transform: uppercase;
   font-size: $font-size-ss;
@@ -70,7 +71,7 @@
   font-stretch: normal;
   line-height: 1.88;
   @media all and (min-width:768px){
-    padding-top: 45px;
+    padding-top: $padding-footer-top768;
     text-align: left;
   }
 }
