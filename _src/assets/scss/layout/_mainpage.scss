@@ -66,12 +66,10 @@ text-decoration: none;
   }
 }
 
-.purchase-list{
-  list-style: none;
-  margin: auto;
-}
+
 
 .list-container-purchase{
+  list-style: none;
   @media all and (min-width:768px) {
     display: grid;
     grid-template-rows: 1fr ;
