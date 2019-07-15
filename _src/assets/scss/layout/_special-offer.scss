@@ -1,0 +1,24 @@
+.special-offer{
+  background-color:$color-primary;
+  color: $color-light;
+  display: none;
+  @media all and (min-width:768px){
+    display: block;
+
+  }
+
+}
+
+.special-offer-tittle{
+  margin-bottom: 10px;
+}
+
+.special-offer-container{
+  @media all and (min-width:768px){
+    display:flex;
+    justify-content: space-between;
+
+
+  }
+
+}
